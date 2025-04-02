@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Send, CheckCircle, XCircle } from 'lucide-react';
 
 export default function Contact() {
   const [formStatus, setFormStatus] = React.useState<'idle' | 'submitting' | 'submitted' | 'error'>('idle');
@@ -211,6 +211,26 @@ export default function Contact() {
                 )}
               </form>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Google Map Section */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Find Us</h2>
+          <div className="w-full h-[32rem] rounded-lg overflow-hidden shadow-lg">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.093132429378!2d-85.96731152395365!3d39.71232240293615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b517d9eec99f1%3A0x338341e54e39ccaf!2s11219%20House%20St%2C%20Indianapolis%2C%20IN%2046259!5e0!3m2!1sen!2sus!4v1712177878796!5m2!1sen!2sus"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Complete Tree Care Location"
+              className="rounded-lg"
+            ></iframe>
           </div>
         </div>
       </section>

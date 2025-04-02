@@ -13,14 +13,11 @@ export default function Footer() {
               Professional tree care services with over 25 years of experience serving our community.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-green-100 hover:text-white">
+              <a href="https://www.facebook.com/acompletetreecare/" target="_blank" rel="noopener noreferrer" className="text-green-100 hover:text-white">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-green-100 hover:text-white">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-green-100 hover:text-white">
-                <Twitter className="h-5 w-5" />
+              <a href="https://goo.gl/maps/41XUPvukMJE2" target="_blank" rel="noopener noreferrer" className="text-green-100 hover:text-white">
+                <MapPin className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -70,11 +67,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:info@completetreecare.com" className="text-green-100 hover:text-white">info@completetreecare.com</a>
+                <a href="mailto:completetreecare@comcast.net" className="text-green-100 hover:text-white">completetreecare@comcast.net</a>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-green-100">123 Oak Street, Anytown, USA</span>
+                <span className="text-green-100">11219 House St, Indianapolis, IN 46259</span>
               </li>
             </ul>
           </div>

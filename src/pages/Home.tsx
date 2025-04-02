@@ -101,17 +101,17 @@ export default function Home() {
               {
                 title: 'Tree Removal',
                 description: 'Safe and efficient removal of damaged or unwanted trees',
-                image: 'https://images.unsplash.com/photo-1523362289600-a70b4a0e09aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1727818899530-5a3bee908607?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
               },
               {
                 title: 'Tree Trimming',
                 description: 'Professional pruning to maintain tree health and appearance',
-                image: 'https://images.unsplash.com/photo-1598458255717-76e71f3d0bba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1710492873117-b790ba523fd4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
               },
               {
                 title: 'Emergency Services',
                 description: '24/7 response for storm damage and hazardous situations',
-                image: 'https://images.unsplash.com/photo-1517147177326-b37599372b73?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: '/gallery/Storm-Damage-Tree-Removal-Indianapolis-IN.jpg'
               }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">

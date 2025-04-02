@@ -46,7 +46,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-green-800">Complete Tree Care</span>
+              <img src="/logo.png" alt="Complete Tree Care" className="h-20 mr-2" />
             </Link>
           </div>
 
