@@ -17,28 +17,28 @@ export default function HardwoodTrees() {
       uses: ['Flooring', 'Cabinetry (e.g., shaker-style cabinets)', 'Furniture'],
       pros: ['Extremely durable and long-lasting', 'Resistant to moisture when sealed, particularly white oak'],
       cons: ['Heavy and harder to work with', 'Susceptible to pests like gypsy moths'],
-      image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80'
+      image: '/blog/Oaktreestock.webp'
     },
     {
       name: 'Maple',
       uses: ['Cutting boards', 'Baseball bats', 'Dance floors'],
       pros: ['Resistant to wear and tear, ideal for high-traffic areas', 'Affordable and readily available'],
       cons: ['Can scratch and dent under heavy impact', 'Susceptible to aphids and verticillium wilt'],
-      image: 'https://images.unsplash.com/photo-1507371341162-763b5e419408?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80'
+      image: '/blog/MapleTreeStock.webp'
     },
     {
       name: 'Cherry',
       uses: ['Fine furniture', 'Veneers', 'Musical instruments (e.g., guitar bodies)'],
       pros: ['Excellent workability', 'Ages beautifully with enhanced color tones'],
       cons: ['Prone to scratches and dents', 'Requires good air circulation to prevent fungal diseases'],
-      image: 'https://images.unsplash.com/photo-1578862973944-aa3f689675f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80'
+      image: '/blog/CherryTreeStock.webp'
     },
     {
       name: 'Walnut',
       uses: ['Gun stocks', 'High-end furniture', 'Decorative bowls'],
       pros: ['Strong yet lightweight', 'Stunning natural color and grain'],
       cons: ['Expensive compared to other hardwood species', 'Susceptible to walnut husk fly and anthracnose'],
-      image: 'https://images.unsplash.com/photo-1635405074683-96d6921a2a68?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80'
+      image: '/blog/WalnutTreeStock.webp'
     }
   ];
 
@@ -48,7 +48,7 @@ export default function HardwoodTrees() {
       <section 
         className="relative py-24 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80")'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/blog/Oaktreestock.webp")'
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">

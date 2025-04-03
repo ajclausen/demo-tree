@@ -56,10 +56,10 @@ export default function Home() {
           </div>
           <div className="prose prose-lg mx-auto text-gray-600">
             <p className="mb-6">
-              For more than 40 years, Complete Tree Care has been providing the communities of Indianapolis and its surrounding areas with exceptional tree services for both residential and commercial properties. We are a highly licensed and insured tree service company that strives to ensure superior quality service.
+              For more than 40 years, Complete Tree Care has been providing the communities of Indianapolis and its surrounding areas with exceptional tree services for both <Link to="/services/residential" className="text-green-700 hover:text-green-800">residential</Link> and <Link to="/services/commercial" className="text-green-700 hover:text-green-800">commercial</Link> properties. We are a highly licensed and insured tree service company that strives to ensure superior quality service.
             </p>
             <p className="mb-6">
-              Since 1978, our committed team of tree care specialists is here for all your needs regarding any type of tree service or maintenance. From tree trimming and pruning for continuous, year-round tree growth and safety, to tree removal for dead, dying, or obstructive trees, and all other tree services in between, Complete Tree Care is your one-stop shop for residential or commercial tree work.
+              Since 1978, our committed team of tree care specialists is here for all your needs regarding any type of tree service or maintenance. From <Link to="/services/tree-trimming" className="text-green-700 hover:text-green-800">tree trimming and pruning</Link> for continuous, year-round tree growth and safety, to <Link to="/services/tree-removal" className="text-green-700 hover:text-green-800">tree removal</Link> for dead, dying, or obstructive trees, and all other <Link to="/services" className="text-green-700 hover:text-green-800">tree services</Link> in between, Complete Tree Care is your one-stop shop for residential or commercial tree work.
             </p>
             <p>
               As the family-owned and operated business in Indianapolis, our professional tree care specialists have much to offer in terms of quality workmanship, dependability, and professionalism. We wholly understand the value of a dollar, as we work hard to maintain sensible rates that withstand economic inflation.
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div className="prose prose-lg mx-auto text-gray-600 mb-12">
             <p>
-              Whether your tree needs are major or minor, our skilled tree service contractors have the expertise and innovative resources to get the job done right –the first time around! Our comprehensive range of tree services includes everything from tree removal and tree care, to tree pruning, tree trimming, stump removal, stump grinding, storm damage tree management, commercial lot clearing, and much more.
+              Whether your tree needs are major or minor, our skilled tree service contractors have the expertise and innovative resources to get the job done right –the first time around! Our comprehensive range of tree services includes everything from <Link to="/services/tree-removal" className="text-green-700 hover:text-green-800">tree removal</Link> and <Link to="/services/tree-care" className="text-green-700 hover:text-green-800">tree care</Link>, to tree pruning, <Link to="/services/tree-trimming" className="text-green-700 hover:text-green-800">tree trimming</Link>, <Link to="/services/stump-removal" className="text-green-700 hover:text-green-800">stump removal</Link>, stump grinding, <Link to="/services/storm-damage" className="text-green-700 hover:text-green-800">storm damage tree management</Link>, commercial lot clearing, and much more.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -101,17 +101,20 @@ export default function Home() {
               {
                 title: 'Tree Removal',
                 description: 'Safe and efficient removal of damaged or unwanted trees',
-                image: 'https://images.unsplash.com/photo-1727818899530-5a3bee908607?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                image: 'https://images.unsplash.com/photo-1727818899530-5a3bee908607?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                link: '/services/tree-removal'
               },
               {
                 title: 'Tree Trimming',
                 description: 'Professional pruning to maintain tree health and appearance',
-                image: 'https://images.unsplash.com/photo-1710492873117-b790ba523fd4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                image: 'https://images.unsplash.com/photo-1710492873117-b790ba523fd4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                link: '/services/tree-trimming'
               },
               {
                 title: 'Emergency Services',
                 description: '24/7 response for storm damage and hazardous situations',
-                image: '/gallery/Storm-Damage-Tree-Removal-Indianapolis-IN.jpg'
+                image: '/gallery/Storm-Damage-Tree-Removal-Indianapolis-IN.jpg',
+                link: '/services/storm-damage'
               }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -120,7 +123,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold text-gray-900">{service.title}</h3>
                   <p className="mt-2 text-gray-600">{service.description}</p>
                   <Link
-                    to="/services"
+                    to={service.link}
                     className="mt-4 inline-flex items-center text-green-700 hover:text-green-800"
                   >
                     Learn more

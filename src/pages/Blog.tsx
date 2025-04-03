@@ -10,7 +10,7 @@ export default function Blog() {
       excerpt: 'Explore popular hardwood species, their unique characteristics, and expert care tips for maintaining healthy trees.',
       date: '2024-03-27',
       author: 'Doug McKinney',
-      image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/blog/Oaktreestock.webp',
       category: 'Tree Care'
     },
     {
@@ -19,7 +19,7 @@ export default function Blog() {
       excerpt: 'Learn everything you need to know about planting trees successfully, from choosing the right species to long-term care and maintenance.',
       date: '2024-03-20',
       author: 'Doug McKinney',
-      image: 'https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1599778150914-88e98e0c3a3e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       category: 'Tree Planting'
     },
     {
