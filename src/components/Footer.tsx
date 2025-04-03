@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Complete Tree Care</h3>
-            <p className="text-green-100 text-sm">
+            <h3 className="text-lg font-semibold mb-4 font-display">Complete Tree Care</h3>
+            <p className="text-green-100 text-sm font-sans">
               Professional tree care services with over 25 years of experience serving our community.
             </p>
             <div className="flex space-x-4 mt-4">
@@ -23,8 +23,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-semibold mb-4 font-display">Quick Links</h3>
+            <ul className="space-y-2 font-sans">
               <li>
                 <Link to="/services" className="text-green-100 hover:text-white">Services</Link>
               </li>
@@ -41,8 +41,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-semibold mb-4 font-display">Services</h3>
+            <ul className="space-y-2 font-sans">
               <li>
                 <Link to="/services#trimming" className="text-green-100 hover:text-white">Tree Trimming</Link>
               </li>
@@ -59,8 +59,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-semibold mb-4 font-display">Contact Us</h3>
+            <ul className="space-y-2 font-sans">
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
                 <a href="tel:317-783-2518" className="text-green-100 hover:text-white">317-783-2518</a>
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-green-800 mt-8 pt-8 text-center text-green-100">
+        <div className="border-t border-green-800 mt-8 pt-8 text-center text-green-100 font-sans">
           <p>&copy; {new Date().getFullYear()} Complete Tree Care. All rights reserved.</p>
         </div>
       </div>

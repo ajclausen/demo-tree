@@ -28,8 +28,8 @@ export default function Home() {
         }}
       >
         <div className="text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Taking Tree Care Standards to the Next Level</h1>
-          <p className="text-xl md:text-2xl mb-8">Indianapolis Tree Service Providers Since 1978</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 font-display text-white">Taking Tree Care Standards to the Next Level</h1>
+          <p className="text-xl md:text-2xl mb-8 font-sans">Indianapolis Tree Service Providers Since 1978</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
@@ -52,9 +52,9 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Indianapolis' Trusted Tree Care Experts</h2>
+            <h2 className="text-3xl font-bold text-gray-900 font-display">Indianapolis' Trusted Tree Care Experts</h2>
           </div>
-          <div className="prose prose-lg mx-auto text-gray-600">
+          <div className="prose prose-lg mx-auto text-gray-600 font-sans">
             <p className="mb-6">
               For more than 40 years, Complete Tree Care has been providing the communities of Indianapolis and its surrounding areas with exceptional tree services for both <Link to="/services/residential" className="text-green-700 hover:text-green-800">residential</Link> and <Link to="/services/commercial" className="text-green-700 hover:text-green-800">commercial</Link> properties. We are a highly licensed and insured tree service company that strives to ensure superior quality service.
             </p>
@@ -72,7 +72,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Why Choose Complete Tree Care</h2>
+            <h2 className="text-3xl font-bold text-gray-900 font-display">Why Choose Complete Tree Care</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
@@ -89,9 +89,9 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Full-Service Tree Care Solutions</h2>
+            <h2 className="text-3xl font-bold text-gray-900 font-display">Full-Service Tree Care Solutions</h2>
           </div>
-          <div className="prose prose-lg mx-auto text-gray-600 mb-12">
+          <div className="prose prose-lg mx-auto text-gray-600 mb-12 font-sans">
             <p>
               Whether your tree needs are major or minor, our skilled tree service contractors have the expertise and innovative resources to get the job done right –the first time around! Our comprehensive range of tree services includes everything from <Link to="/services/tree-removal" className="text-green-700 hover:text-green-800">tree removal</Link> and <Link to="/services/tree-care" className="text-green-700 hover:text-green-800">tree care</Link>, to tree pruning, <Link to="/services/tree-trimming" className="text-green-700 hover:text-green-800">tree trimming</Link>, <Link to="/services/stump-removal" className="text-green-700 hover:text-green-800">stump removal</Link>, stump grinding, <Link to="/services/storm-damage" className="text-green-700 hover:text-green-800">storm damage tree management</Link>, commercial lot clearing, and much more.
             </p>
@@ -120,8 +120,8 @@ export default function Home() {
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-48 object-cover" />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900">{service.title}</h3>
-                  <p className="mt-2 text-gray-600">{service.description}</p>
+                  <h3 className="text-xl font-semibold text-gray-900 font-display">{service.title}</h3>
+                  <p className="mt-2 text-gray-600 font-sans">{service.description}</p>
                   <Link
                     to={service.link}
                     className="mt-4 inline-flex items-center text-green-700 hover:text-green-800"
@@ -140,8 +140,8 @@ export default function Home() {
       <section className="bg-green-700 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-white">Ready to get started?</h2>
-            <p className="mt-4 text-xl text-green-100">
+            <h2 className="text-3xl font-bold text-white font-display">Ready to get started?</h2>
+            <p className="mt-4 text-xl text-green-100 font-sans">
               Don't let your trees go another day without a professional touch
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">

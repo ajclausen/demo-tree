@@ -35,12 +35,12 @@ export default function Contact() {
       <section 
         className="relative py-24 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80")'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/Contact Us.webp")'
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Contact Us</h1>
-          <p className="text-xl md:text-2xl mb-8">Get in touch for all your tree care needs</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 font-display text-white">Contact Us</h1>
+          <p className="text-xl md:text-2xl mb-8 font-sans">Get in touch for all your tree care needs</p>
         </div>
       </section>
 

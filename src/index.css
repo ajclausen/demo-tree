@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for organic feel */
+@layer base {
+  html {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    letter-spacing: -0.025em;
+    line-height: 1.3;
+    color: #14532d;
+  }
+  
+  /* Hero section heading color override */
+  [class*="bg-cover"] h1, 
+  [class*="bg-cover"] h2,
+  [style*="background-image"] h1,
+  [style*="background-image"] h2 {
+    color: white;
+  }
+  
+  .font-display {
+    letter-spacing: -0.025em;
+    line-height: 1.3;
+  }
+  
+  .font-sans {
+    letter-spacing: 0.015em;
+    line-height: 1.6;
+  }
+  
+  p {
+    line-height: 1.7;
+  }
+  
+  button, a.btn, .btn, input[type="submit"] {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    letter-spacing: 0.025em;
+  }
+  
+  nav a, nav button {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  
+  /* Navigation specific styles */
+  header nav a, header nav button {
+    position: relative;
+  }
+  
+  header nav a::after, 
+  header nav button::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #15803d;
+    transition: width 0.3s ease;
+  }
+  
+  header nav a:hover::after,
+  header nav button:hover::after {
+    width: 100%;
+  }
+}

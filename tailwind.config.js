@@ -17,6 +17,10 @@ export default {
           900: '#14532d',
         },
       },
+      fontFamily: {
+        sans: ['Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        display: ['Libre Baskerville', 'Georgia', 'serif']
+      },
     },
   },
   plugins: [],
